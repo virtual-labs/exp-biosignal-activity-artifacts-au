@@ -1,1 +1,1 @@
-## Experiment name
+## Analysis of Biosignals activity and artifacts
