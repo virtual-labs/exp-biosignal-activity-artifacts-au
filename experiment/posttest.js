@@ -88,23 +88,84 @@
     /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-    const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+    const myQuestions = [
+        
+        {
+            question: "1. Identify the methods implemented for denoising or removing artifacts from a raw EEG signals:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Independent component Analysis(ICA)", ///// Write the option 1 inside double quotes
+                b: "Principal Component Analysis(PCA)", ///// Write the option 2 inside double quotes
+                c: "Wavelet Transform(WT)", ///// Write the option 2 inside double quotes
+                d: "All the above", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            
+            correctAnswer: "d" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+
+
+        {
+            question: "2. Ocular artifacts, Muscle artifacts, Cardiac artifacts are:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Extrinsic artifacts", ///// Write the option 1 inside double quotes
+                b: "Intrinsic artifacts", ///// Write the option 2 inside double quotes
+                c: "Experimental artifacts", ///// Write the option 2 inside double quotes
+                d: "Environmental artifacts", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+
+
+
+        {
+            question: "3. Artifacts are unwanted signals which are mainly originated from:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Environment noise", ///// Write the option 1 inside double quotes
+                b: "Experimental error", ///// Write the option 2 inside double quotes
+                c: "Physiological artifacts", ///// Write the option 2 inside double quotes
+                d: "All the above", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+
+
+        {
+            question: "4. The filtering methods employed for the cancellation of various noises from a EEG signals:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: "Adaptive ﬁltering", ///// Write the option 1 inside double quotes
+                b: "Wiener ﬁltering", ///// Write the option 2 inside double quotes
+                c: "Welch Method", ///// Write the option 2 inside double quotes
+                d: "Both A and B", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "5. Band pass filtering used to remove electromyogram (EMG) contamination:", ///// Write the question inside double quotes
+            
+            answers: 
+            {
+                a: " 30-40 Hz Band pass Filtering", ///// Write the option 1 inside double quotes
+                b: "60 Hz Band pass Filtering", ///// Write the option 2 inside double quotes
+                c: "1-20 Hz Band pass Filtering", ///// Write the option 2 inside double quotes
+                d: "70-100 Hz Band pass Filtering", ///// Write the option 2 inside double quotes
+            },
+            
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
 
 
         
