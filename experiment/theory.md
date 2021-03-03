@@ -24,7 +24,7 @@ EEG signals are produced by the electrical activity of the brain cells. When a n
 &nbsp;
 
 
-![](/experiment/images/1.png)
+<center><img src="images/1.png" title="" /></center>
 
 
 
@@ -49,7 +49,7 @@ EEG signals consist of various brain rhythms (brainwaves) including delta (0.3â€
 
 
 
-![](/experiment/images/2.png)
+<center><img src="images/2.png" title="" /></center>
 
 
 
